@@ -55,7 +55,7 @@ p {
   margin-top: 3rem;
 }
 
-.land-cover-img {
+.land-cover-map {
   height: 60%;
   margin: 0 auto 4rem;
   width: 80%;
@@ -63,18 +63,31 @@ p {
 
 .soils-cropland {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-bottom: 4rem;
 }
 
-.soils-img,
-.cropland-img {
+.soils-map,
+.cropland-map {
   height: 30%;
   width: 40%;
 }
 
-.erodibility-img {
+.erodibility-map {
   height: 40%;
   margin: 0 auto 4rem;
   width: 60%;
+}
+
+/* mobility-analysis */
+#mobility-analysis {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4rem;
+}
+
+.flow-map {
+  height: 80%;
+  margin: 0 auto 4rem;
+  width: 100%;
 }
