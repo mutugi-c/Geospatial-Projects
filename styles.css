@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Typography */
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 2.4rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    font-size: 1.2rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+  }
+}
+
+#project-container {
+  padding: 0 8rem;
+}
+
+/* Erodibility analysis section */
+#erodibility-analysis {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.land-cover-map {
+  height: 60%;
+  margin: 0 auto 4rem;
+  width: 80%;
+}
+
+.soils-cropland {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 4rem;
+}
+
+.soils-map,
+.cropland-map {
+  height: 30%;
+  width: 40%;
+}
+
+.erodibility-map {
+  height: 40%;
+  margin: 0 auto 4rem;
+  width: 60%;
+}
+
+/* mobility-analysis section */
+#mobility-analysis {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4rem;
+}
+
+.flow-map {
+  height: 80%;
+  margin: 0 auto 4rem;
+  width: 80%;
+}
+
+/* map-challenge section */
+#map-challenge {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4rem;
+}
+
+.mt-Kenya {
+  height: 80%;
+  margin: 0 auto 4rem;
+  width: 80%;
+}
+
+.blue-Nile {
+  height: 30%;
+  margin: 0 auto;
+  width: 40%;
+}
