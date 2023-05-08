@@ -48,7 +48,6 @@ p {
 
 /* Erodibility analysis section */
 #erodibility-analysis {
-  align-items: ;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -79,7 +78,7 @@ p {
   width: 60%;
 }
 
-/* mobility-analysis */
+/* mobility-analysis section */
 #mobility-analysis {
   display: flex;
   flex-direction: column;
@@ -89,5 +88,24 @@ p {
 .flow-map {
   height: 80%;
   margin: 0 auto 4rem;
-  width: 100%;
+  width: 80%;
+}
+
+/* map-challenge section */
+#map-challenge {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4rem;
+}
+
+.mt-Kenya {
+  height: 80%;
+  margin: 0 auto 4rem;
+  width: 80%;
+}
+
+.blue-Nile {
+  height: 30%;
+  margin: 0 auto;
+  width: 40%;
 }
