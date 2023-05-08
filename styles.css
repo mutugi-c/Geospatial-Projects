@@ -23,6 +23,10 @@ h2 {
   font-size: 2rem;
 }
 
+p {
+  margin-bottom: 2rem;
+}
+
 @media screen and (min-width: 1024px) {
   body {
     font-size: 1.2rem;
@@ -34,6 +38,7 @@ h2 {
 
   h2 {
     font-size: 2.4rem;
+    margin-bottom: 1rem;
   }
 }
 
@@ -41,3 +46,35 @@ h2 {
   padding: 0 8rem;
 }
 
+/* Erodibility analysis section */
+#erodibility-analysis {
+  align-items: ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.land-cover-img {
+  height: 60%;
+  margin: 0 auto 4rem;
+  width: 80%;
+}
+
+.soils-cropland {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+
+.soils-img,
+.cropland-img {
+  height: 30%;
+  width: 40%;
+}
+
+.erodibility-img {
+  height: 40%;
+  margin: 0 auto 4rem;
+  width: 60%;
+}
