@@ -22,34 +22,89 @@
       #30DayMapChallenge.
     </p>
 
-    <h2>Erodibility Analysis</h2>
-    <p>
-      This task aimed at identifying croplands that were susceptible to erosion,
-      using slope and soil texture as the factors for erosion. Classical GIS
-      suitability analysis was employed, with the goal being to identify
-      croplands in Kenya that are located on steep slopes with finer soil
-      texture, hence making them susceptible to erosion. QGIS version 3.16.11
-      was used, and the land cover data obtained from ESA Land Cover 300m
-      product – ESA Climate Change Initiative.
-    </p>
+    <!-- Erodibility analysis -->
+    <section id="erodibility-analysis">
+      <h2>Erodibility Analysis</h2>
+      <p>
+        This task aimed at identifying croplands that were susceptible to
+        erosion, using slope and soil texture as the factors for erosion.
+        Classical GIS suitability analysis was employed, with the goal being to
+        identify croplands in Kenya that are located on steep slopes with finer
+        soil texture, hence making them susceptible to erosion. QGIS version
+        3.16.11 was used, and the land cover data obtained from ESA Land Cover
+        300m product – ESA Climate Change Initiative.
+      </p>
+      <img
+        src="./Assets/Erodibility_analysis/kenya_land_cover.png"
+        alt="A Land cover map of Kenya"
+      />
+      <p>
+        The Elevation data was from SRTM (Shuttle Radar Topography Mission) Tile
+        Grabber, the Kenyan border shapefile from the GADM database, while the
+        World Soil Database was obtained from ISRIC Soil Data Hub.
+      </p>
 
-    <h2>Flow Map</h2>
-    <p>
-      A flow map of movements between territorial communities in Estonia was
-      created using OD (Origin-Destination) matrices containing spatial and
-      non-spatial details about where territorial movements began and ended, and
-      the number of regular movers.
-    </p>
+      <img
+        src="./Assets/Erodibility_analysis/kenyan_soils_1.png"
+        alt="A soil map of Kenya"
+      />
+      <img
+        src="./Assets/Erodibility_analysis/kenyan_crop_land_1.png"
+        alt="A cropland map of Kenya"
+      />
 
-    <h2>#30DayMapChallenge</h2>
-    <p>
-      An elevation map, created during the 2021 #30DayMapChallenge, portraying
-      the highest peak in a beautiful country called Kenya.
-    </p>
+      <p>
+        Kenya has an estimated 48.1% of its total land area under agricultural
+        use. 9.8% of the said land is estimated to be arable; crops are
+        replanted after each harvest, 0.9% under permanent crops; crops not
+        replanted after each harvest, such as coffee and tea, while the
+        remaining 37.4% of agricultural land is made up of permanent pastures;
+        land with herbaceous forage that is cultivated or grows naturally (CIA
+        World Factbook, 2021). Classical GIS can thus be applied in carrying out
+        simple erodibility analyses.
+      </p>
+      <img
+        src="./Assets/Erodibility_analysis/Kenya_erodible_croplands.png"
+        alt="An erodobility map of Kenyan croplands"
+      />
+    </section>
 
-    <p>
-      An elevation map, created during the 2021 #30DayMapChallenge, portraying
-      the highest peak in a beautiful country called Kenya.
-    </p>
+    <section class="mobility-analysis">
+      <h2>Flow Map</h2>
+
+      <p>
+        A flow map of movements between territorial communities in Estonia was
+        created using OD (Origin-Destination) matrices containing spatial and
+        non-spatial details about where territorial movements began and ended,
+        and the number of regular movers.
+      </p>
+      <img
+        src="./Assets/Moblity_Flow_Map/"
+        alt="Mobility map between territorial communities of Estonia in 2018"
+      />
+    </section>
+
+    <section class="map-challenge">
+      <h2>#30DayMapChallenge</h2>
+      <p>
+        An elevation map, created during the 2021 #30DayMapChallenge, portraying
+        the highest peak in a beautiful country called Kenya.
+      </p>
+
+      <img
+        src="./Assets/30DayMapChallenge/21_Elevation.png"
+        alt="An elevation map of Mt.Kenya, the second highest mountain in Africa"
+      />
+
+      <p>
+        A composite from Sentinel 2 bands (12, 11 & 2) used to showcase the Blue
+        in a section of the Blue Nile during the 2021 #30DayMapChallenge
+      </p>
+
+      <img
+        src="./Assets/30DayMapChallenge/8_Blue_2.png"
+        alt="A map of the Blue Nile in Ethiopia"
+      />
+    </section>
   </body>
 </html>
