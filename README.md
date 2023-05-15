@@ -22,7 +22,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio <a name="about-project"></a>
+# 📖 Geospatial projects <a name="about-project"></a>
 
 **Geospatial-Projects** is a repository to share some of the Geographic Information Systems (GIS) and remote sensing projects that I have undertaken.
 
